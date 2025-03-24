@@ -41,7 +41,7 @@ export default function VideoIntro() {
             Texto Principal
           </h1>
           <p className="mt-4 text-lg">
-            Logo + Sobre mais
+            Logo + historia sobre a empresa
           </p>
         </div>
       </div>
@@ -51,13 +51,13 @@ export default function VideoIntro() {
         <div className="flex justify-between max-w ">
           <img src={logo} className="w-19 h-14" />
           <div className=" flex space-x-4 p-4">
-            <h2 className="">
+            <h2 className="text-[#02B389]">
               <a href="">Home</a>
             </h2>
-            <h2>
+            <h2 className="hover:text-[#02B389]">
               <a href="">Sobre</a>
             </h2>
-            <h2>
+            <h2 className="hover:text-[#02B389]">
               <a href="">Contato</a>
             </h2>
           </div>
@@ -66,16 +66,30 @@ export default function VideoIntro() {
 
       {/* Conteúdo principal */}
       <main className="relative z-20 p-8 min-h-[150vh]">
-        <div className="flex-column justify-content-center align-items-center w-[54%] m-auto pt-[15vh]">
+        <div className="flex-column justify-center items-center w-[54%] m-auto pt-[15vh]">
         <h2 className="text-3xl font-bold mb-4 text-center">Fundada em 2011, a MedConsulting é a mais experiente Consultoria de Gestão em negócios de Saúde do Brasil.</h2>
         <p className="text-center">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           
         </p>
         </div>
-        <div className="flex justify-center items-center h-96">
-          <h2>Serviços</h2>
-        </div>
+        <div className="pt-28 m-auto w-full">
+  <div className="flex flex-col items-center">
+    <h2>Serviços</h2>
+  </div>
+
+  <div className="flex flex-wrap justify-center gap-4">
+    {/* Primeiro bloco */}
+    <div className="flex flex-col items-center p-4 border border-gray-300 rounded-lg w-full md:w-[48%]">
+      <h3>titulo 1</h3>
+      <p>a</p>
+      <p>a</p>
+      <p>a</p>
+    </div>
+
+  </div>
+</div>
+
       </main>
     </div>
   );
