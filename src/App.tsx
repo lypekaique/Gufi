@@ -275,7 +275,7 @@ export default function VideoIntro() {
       </main>
       <footer className="flex justify-between items-center p-4 bg-[#02B389] text-white text-sm">
     <p>&copy; 2025 Gufe Asseguradora. Todos os direitos reservados.</p>
-    <a href="https://github.com/lypekaique" target="_blank" class="hover:underline">@lypekaique</a>
+    <a href="https://github.com/lypekaique" target="_blank" className="hover:underline">@lypekaique</a>
 </footer>
 
       {/* Estilos Tailwind para a animação de shake */}
