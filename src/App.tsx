@@ -261,7 +261,7 @@ export default function VideoIntro() {
 
       <p className="font-bold mt-4">📧 E-mails para contato:</p>
       <a href="mailto:Gustavo@gufeseguros.com.br" className="text-blue-600 hover:underline">
-        Gustavo@gufeseguros.com.br
+        Gustavo@gufeseguros.com
       </a>
       <a href="mailto:Fernanda@gufeseguros.com.br" className="text-blue-600 hover:underline">
         Fernanda@gufeseguros.com.br
